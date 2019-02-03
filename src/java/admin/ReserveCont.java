@@ -196,10 +196,12 @@ public class ReserveCont extends HttpServlet {
 				   + "Reservation Number: " + reservation + "\n"
 				   + "===================================\n\n"
 				   + "Total Price: " + totalPrice + "\n\n"
-				   + "If all the information is correct, please click the "
-				   + "following link to proceed with payment or you may "
-				   + "reply back to this email for more information.\n"
-				   + url;
+				   + "If the information above is incorrect, please respomd "
+				   + "to this email as soon as possible."
+				   + "You will receive an email with an invoice where you "
+				   + "will be requested to make a payment of the amount "
+				   + "specified above via Paypal. You may use your Paypal "
+				   + "account or credit or debit card.";
 
 
 			//Send Email to RP-Getaways

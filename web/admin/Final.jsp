@@ -62,6 +62,7 @@
         <div class="container">
             <div class="jumbotron" style="margin-top: 200px;">
                 <h1 class="display-4">Reservation for ${name} ${last} has been confirmed.</h1>
+                <a class="btn btn-primary" href="https://www.paypal.com/invoice/create" role="button">Create Invoice</a>
             </div>
         </div>
     </body>
