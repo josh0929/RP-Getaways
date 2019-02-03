@@ -47,7 +47,7 @@
                                 <a class="nav-link" href="../rooms-ppl/PPL_crown_villas_active.html">Rooms</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="../pricing.html">Pricing</a>
                             </li>
                         </ul>
                     </div>
