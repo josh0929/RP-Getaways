@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!--
+
+Description:
+
+
+@author Joshua Suarez
+
+Course: COP3337 Computer Programming II
+and open the template in the editor.
+Instructor: Greg Shaw
+File name:
+Assignment: 
+Panther ID: 6041323
+-->
+<html>
+    <head>
+        <title>RP-Getaways</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+              crossorigin="anonymous">
+        <link rel="icon" href="imgs/logo/beach.png">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <style>
+            h2, h3, h4, h5 {
+                font-family: 'Montserrat', sans-serif;
+                color: grey;
+            }
+
+            p, h1 {
+                color: grey;
+            }
+
+            #main-slider {
+                width: 100%;
+                height: 90%;
+                top: 0%;
+                margin-top: 0%;
+            }
+
+            .figure {
+                margin-right: 24px; 
+                margin-top: 30px;
+                height: 250px;
+                width: 250px;
+            }
+
+            #main_jumbotron {
+                position: absolute;
+                margin: auto;
+                margin-left: 29%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="sticky-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="imgs/logo/beach.png" style="width: 50px; height: 50px;"> RP-Getaways</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="rooms-ppl/PPL_crown_villas_active.html">Rooms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pricing.html">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <h2 style="text-align: center; margin-top: 80px;">Pricing</h2>
+            <div style="border: gray; border-style: solid; border-width: 0.6px;"></div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Hotel / Room</th>
+                        <th scope="col">Price (per week - 7 days)</th>
+                        <th scope="col">Price (per day)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Crown Villas - 3 Rooms</th>
+                        <td>$ 839.99</td>
+                        <td>$ 120.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Crown Villas - 4 Rooms</th>
+                        <td>$ 1539.99</td>
+                        <td>$ 220.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Crown Villas - 5 Rooms</th>
+                        <td>$ 1679.99</td>
+                        <td>$ 240.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Crown Villas - 6 Rooms</th>
+                        <td>$ 1819.99</td>
+                        <td>$ 260.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Crown Villas - 7 Rooms</th>
+                        <td>$ 1959.99</td>
+                        <td>$ 280.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Royal Suites - 1 Room</th>
+                        <td>$ 839.99</td>
+                        <td>$ 120.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Royal Suites - 2 Room</th>
+                        <td>$ 1119.99</td>
+                        <td>$ 160.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Residence Suites - Studio</th>
+                        <td>$ 351.39</td>
+                        <td>$ 50.20</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Residence Suites - 1 Room</th>
+                        <td>$ 419.99</td>
+                        <td>$ 60.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Residence Suites - 2 Room</th>
+                        <td>$ 559.99</td>
+                        <td>$ 80.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Tropical - Studio</th>
+                        <td>$ 351.39</td>
+                        <td>$ 50.20</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Tropical - 1 Room</th>
+                        <td>$ 419.99</td>
+                        <td>$ 60.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - The Tropical - 2 Room</th>
+                        <td>$ 559.99</td>
+                        <td>$ 80.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Presidential Suites - Studio</th>
+                        <td>$ 559.99</td>
+                        <td>$ 80.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Presidential Suites - 1 Room</th>
+                        <td>$ 839.99</td>
+                        <td>$ 120.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Presidential Suites - 2 Room</th>
+                        <td>$ 1119.99</td>
+                        <td>$ 160.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Costa Esmeralda - 3 Room</th>
+                        <td>$ 839.99</td>
+                        <td>$ 120.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Costa Esmeralda - 4 Room</th>
+                        <td>$ 1539.99</td>
+                        <td>$ 220.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Costa Esmeralda - 5 Room</th>
+                        <td>$ 1679.99</td>
+                        <td>$ 240.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Costa Esmeralda - 6 Room</th>
+                        <td>$ 1819.99</td>
+                        <td>$ 260.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Puerto Plata - Costa Esmeralda - 7 Room</th>
+                        <td>$ 1959.99</td>
+                        <td>$ 280.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Punta Cana - Presidential Suites - 1 Room</th>
+                        <td>$ 839.99</td>
+                        <td>$ 120.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Punta Cana - Presidential Suites - 2 Room</th>
+                        <td>$ 1119.99</td>
+                        <td>$ 160.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Punta Cana - Presidential Suites - 3 Room</th>
+                        <td>$ 1399.99</td>
+                        <td>$ 200.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Punta Cana - Dream Suites - Studio</th>
+                        <td>$ 526.39</td>
+                        <td>$ 75.20</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Bavaro - The Dream Suites - Studio</th>
+                        <td>$ 525.00</td>
+                        <td>$ 75.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Cancun - 1 Room</th>
+                        <td>$ 419.99</td>
+                        <td>$ 60.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Cancun - 2 Room</th>
+                        <td>$ 559.99</td>
+                        <td>$ 80.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Tulum - 1 Room</th>
+                        <td>$ 419.99</td>
+                        <td>$ 60.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Tulum - 2 Room</th>
+                        <td>$ 559.99</td>
+                        <td>$ 80.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Sens - 1 Room</th>
+                        <td>$ 419.99</td>
+                        <td>$ 60.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Sens - 2 Room</th>
+                        <td>$ 559.99</td>
+                        <td>$ 80.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Palm - 1 Room</th>
+                        <td>$ 419.99</td>
+                        <td>$ 60.00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mexico - Palm - 2 Room</th>
+                        <td>$ 559.99</td>
+                        <td>$ 80.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="border: gray; border-style: solid; border-width: 0.6px;"></div>
+            <h2 style="text-align: center; margin-top: 50px;">Extras</h2>
+            <p style="color: grey;">
+                The following options are extras (VIP Package) offered at an 
+                additional cost by the hotel. You will prompted with the option 
+                to include the "VIP Package" to your reservation at the time of 
+                arrival to the hotel in the front desk.  
+            </p>
+
+            <div class="row" style="color: gray; margin-top: 40px;">
+                <div class="col">
+                    <h4>LUXURY ALL-IN</h4>
+                    <p>Our All-Inclusive Plan Includes:<br></p>                             
+                    <ul>
+                        <li>
+                            Privileged use of all restaurants, bars, 
+                            and facilities at the Resort (V.I.P areas 
+                            and services exclusive for Members)
+                        </li>
+                        <li>
+                            24-hour food and beverages available in select locations
+                        </li>
+                        <li>
+                            All meals – access to breakfast, lunch, and dinner in any of our restaurants on property (some restaurants require advance reservations)
+                        </li>
+                        <li>
+                            7 V.I.P exclusive restaurants
+                        </li>
+                        <li>
+                            9 All Guest restaurants for a la carte dining
+                            (Reservations may be required)
+                        </li>
+                        <li>
+                            2 International Buffet restaurants (No reservations required)
+                        </li>
+                        <li>
+                            Daytime and late snacks located throughout the property, including 11 V.I.P Lite Fare Bars
+                        </li>
+                        <li>
+                            Includes: House Wine with Meals, plus Beer, Spirits, Cocktails, Juices, and Soft Drinks are available from all Bars located on the property.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>ACTIVITIES, SPORTS & ENTERTAINMENT</h4>
+                    <ul>
+                        <li>Introductory Scuba Lesson in Pool
+                            (PADI Certified)</li>
+                        <li>Non-Motorized Water Sports </li>
+                        <li>Access to Gym</li>
+                        <li>Nightly Entertainment Includes:
+                            Colosseum and Lights, Camera, Action Theatre Shows </li>
+                        <li>Tennis Usage  (Daytime)</li>
+                        <li>Shuttle Service on Property </li>
+                        <li>Los Mangos Executive Golf Course: 9 Hole Green Fee or Half-Hour Tour Clinic Per Stay</li>
+                        <li>Jogging</li>
+                        <li>Games</li>
+                        <li>Music </li>
+                        <li>Spanish Lessons</li>
+                        <li>Beach and Pool Volleyball</li>
+                        <li>Aqua-Aerobics</li>
+                        <li>Dance Lessons</li>
+                        <li>Daily Children’s Entertainment Programs</li>
+                    </ul>
+                    <h4>6 Beaches</h4>
+                    <div class="col">
+                        <ul>
+                            <li>Lifestyle Beach</li>
+                            <li>V.I.P Beach</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>NV Beach</li>
+                            <li>Serenity Beach</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul>
+                            <li>Harmony Beach</li>
+                            <li>Cofresi Beach</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h4>AMENITIES AND FACILITIES</h4>
+                    <p>Access Includes:</p>
+                    <ul>
+                        <li>7 V.I.P Exclusive Restaurants </li>
+                        <li>11 Restaurants for All Guests</li>
+                        <li>11 V.I.P Lite Fare Bars</li>
+                        <li>14 V.I.P Exclusive Bars </li>
+                        <li>12 Bars for All Guests</li>
+                        <li>12+ Pools Including Exclusive Kid’s Pool Areas</li>
+                        <li>ICE Nightclub</li>
+                        <li>2 Entertainment Centers Colosseum & Lights, Camera, Action Theatre</li>
+                        <li>Non-Motorized Water-Sports:<br>
+                            Snorkeling Equipment, Boogie Boards, Kayaks</li>
+                        <li>Tennis Courts</li>
+                        <li>Basketball Court</li>
+                        <li>Beach Volleyball Court</li>
+                        <li>2 Gyms with Exercise Equipment</li>
+                        <li>Shopping Areas, Including Hand-Crafted Market</li>
+                        <li>Merchandise Store</li>
+                        <li>Logo/Gift Store</li>
+                        <li>Life-Size Chess Game</li>
+                        <li>Synagogue</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
