@@ -86,7 +86,7 @@ public final class Reservation_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                                <a class=\"nav-link\" href=\"../rooms-ppl/PPL_crown_villas_active.html\">Rooms</a>\n");
       out.write("                            </li>\n");
       out.write("                            <li class=\"nav-item\">\n");
-      out.write("                                <a class=\"nav-link\" href=\"#\">Pricing</a>\n");
+      out.write("                                <a class=\"nav-link\" href=\"../pricing.html\">Pricing</a>\n");
       out.write("                            </li>\n");
       out.write("                        </ul>\n");
       out.write("                    </div>\n");
